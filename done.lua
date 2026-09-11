@@ -116,7 +116,6 @@ sound.Volume = 1
 sound.Looped = false
 sound.Parent = sg
 sound:Play()
-print("[SOUND] Playing! Duration: " .. tostring(sound.TimeLength) .. "s")
 
 task.spawn(function()
 	local seeds = {}
